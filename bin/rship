@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+#
+# Rship examines Ruby source code for smells.
+# Visit http://railsbox.org/rship/ for more details.
+#
+# Author: Ozéias Sant'ana
+#
+
+require 'rship'
+require 'rship/options'
+
+Rship::Options.parse(ARGV)
