@@ -2,6 +2,7 @@ History.txt
 Manifest.txt
 PostInstall.txt
 README.markdown
+README.rdoc
 Rakefile
 bin/rship
 lib/rship.rb

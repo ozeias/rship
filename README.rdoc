@@ -1,0 +1,56 @@
+= rship
+
+* http://github.com/ozeias/rship
+
+== DESCRIPTION:
+
+Rship is a simple RubyGem for automating git tasks, designed to work with the basic git workflow, see below:
+  
+  1. Start a feature
+
+  2. Checkout a working branch for this feature
+
+  3. Write a test
+
+  4. Write an implementation to make the test pass
+
+  5. Repeat 3 and 4 until the feature is complete
+
+  6. Commit and Push changes to git with:
+    
+    rship -m 'my commit'
+
+== INSTALL:
+
+# Run the following if you haven't done so before:
+gem sources -a http://gems.github.com
+# Install the gem:
+sudo gem install ozeias-rship
+
+== AUTHOR
+
+ * [Ozéias Sant'ana](http://railsbox.org)
+ * [Recommend me on Working With Rails](http://www.workingwithrails.com/recommendation/new/person/8228-oz-ias-sant-ana)
+
+== Copyright / License:
+
+Copyright (c) 2009 Ozéias Sant'ana - railsbox.org
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
